@@ -1,16 +1,20 @@
 # Student Performance App
 
+Aplicación:
+http://studentsapp.mybluemix.net/
+
+Video:
 https://www.youtube.com/watch?v=1pN6mzixJbk&feature=youtu.be
 
-### Equipo:
+## Equipo:
 * Aleph
 
-### Integrantes:
+## Integrantes:
 * Julian Niebieskikwiat
 * Fernando Lobato
 * Alejandro Cassis
 
-### Descripción de la solucion:
+## Descripción de la solucion:
 
 Como se explicó en el video, nuestra aplicación pretende facilitar el proceso de aprendizaje del alumno, y al mismo tiempo, facilitar el asesoramiento de un profesor hacia un alumno.
 
