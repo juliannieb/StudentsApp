@@ -2,3 +2,4 @@
 applications:
 - name: bluemix-python-flask-sample
   memory: 128M
+  buildpack: https://github.com/kennethreitz/conda-buildpack.git

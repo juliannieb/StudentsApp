@@ -14,16 +14,26 @@
 
 import os
 from flask import Flask
+from flask import render_template
+from forms import StudentForm1
+from flask_material import Material
+import numpy as np
+
+#import sklearn
+#from sklearn.svm import SVR
 
 app = Flask(__name__)
+app.secret_key = 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT'
+Material(app)
 
 @app.route('/')
 def Welcome():
-    return app.send_static_file('index.html')
+    form = StudentForm1()
+    return render_template('index.html', form=form)
 
 @app.route('/myapp')
 def WelcomeToMyapp():
-    return 'Welcome again to my app running on Bluemix!'
+    return 'Welcome again to my app running on Bluemix! Si No'
 
 port = os.getenv('VCAP_APP_PORT', '5000')
 if __name__ == "__main__":
